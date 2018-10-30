@@ -1,1 +1,48 @@
 https://blog.csdn.net/qq_34900204/article/details/79191799
+
+
+
+An SSL error has occurred and a secure connection to the server cannot be made.
+
+
+
+2018-10-12 12:15:10.230832+0800 LexisGlass[860:283983] >>>in webView method.url:https://signin.lexisnexis.com/lnaccess/Transition?aci=la
+2018-10-12 12:15:10.231450+0800 LexisGlass[860:283983] url:https://signin.lexisnexis.com/lnaccess/Transition?aci=la
+2018-10-12 12:15:10.692430+0800 LexisGlass[860:283983] >>>in webView method.url:https://advance.lexis.com/?lna2=NzEzMGIzN2ExMmU1ZjYyZjIwZDFhZGU1YjE5YTg5YThjZDEzNTA0MzI2N2Y0ZmYyYTM2ODY3ZWNhOWUzYmE1MTViZDgyNDA5dXJuOnVzZXI6UEExODI2NzYzNDQhMTUxODQyNCwxMDAwMjAyLDEwMDEwNDcsMTAwMTAzOSwxMDAwMjA3LDE1MTgzOTksIUdVSUQ6Nzk2RkMyRDY4REI5Q0M3NEUwNTMwMTAwMDA3RjI1OEVe&aci=la&cbc=0&lnsi=18f3de94-6ac4-42f6-a62f-f45838089661&rmflag=0&sit=1539317710210.918
+2018-10-12 12:15:10.692603+0800 LexisGlass[860:283983] url:https://advance.lexis.com/?lna2=NzEzMGIzN2ExMmU1ZjYyZjIwZDFhZGU1YjE5YTg5YThjZDEzNTA0MzI2N2Y0ZmYyYTM2ODY3ZWNhOWUzYmE1MTViZDgyNDA5dXJuOnVzZXI6UEExODI2NzYzNDQhMTUxODQyNCwxMDAwMjAyLDEwMDEwNDcsMTAwMTAzOSwxMDAwMjA3LDE1MTgzOTksIUdVSUQ6Nzk2RkMyRDY4REI5Q0M3NEUwNTMwMTAwMDA3RjI1OEVe&aci=la&cbc=0&lnsi=18f3de94-6ac4-42f6-a62f-f45838089661&rmflag=0&sit=1539317710210.918
+2018-10-12 12:15:12.726867+0800 LexisGlass[860:283983] >>>in webView method.url:https://advance.lexis.com/?aci=la&cbc=0&lnsi=18f3de94-6ac4-42f6-a62f-f45838089661&rmflag=0&sit=1539317710210.918
+2018-10-12 12:15:12.727034+0800 LexisGlass[860:283983] url:https://advance.lexis.com/?aci=la&cbc=0&lnsi=18f3de94-6ac4-42f6-a62f-f45838089661&rmflag=0&sit=1539317710210.918
+2018-10-12 12:15:13.289072+0800 LexisGlass[860:284097] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2018-10-12 12:15:13.289283+0800 LexisGlass[860:284097] WF: _WebFilterIsActive returning: NO
+2018-10-12 12:15:13.379473+0800 LexisGlass[860:283983] [] <<<< AVOutputDeviceDiscoverySession (FigRouteDiscoverer) >>>> -[AVFigRouteDiscovererOutputDeviceDiscoverySessionImpl outputDeviceDiscoverySessionDidChangeDiscoveryMode:]: Setting device discovery mode to DiscoveryMode_None (client: LexisGlass)
+2018-10-12 12:15:13.430243+0800 LexisGlass[860:283983] >>>in webView method.url:https://advance.lexis.com/firsttime?crid=be9b9aee-4e46-4a82-b5fa-aed634ce5c1c
+2018-10-12 12:15:13.430415+0800 LexisGlass[860:283983] url:https://advance.lexis.com/firsttime?crid=be9b9aee-4e46-4a82-b5fa-aed634ce5c1c
+2018-10-12 12:15:13.430434+0800 LexisGlass[860:283983] BEGIN REQUEST LNA2=======================
+2018-10-12 12:15:14.617724+0800 LexisGlass[860:284355] ATS failed system trust
+2018-10-12 12:15:14.617848+0800 LexisGlass[860:284355] System Trust failed for [6:0x1d417a580]
+2018-10-12 12:15:14.617882+0800 LexisGlass[860:284355] TIC SSL Trust Error [6:0x1d417a580]: 3:0
+2018-10-12 12:15:14.618074+0800 LexisGlass[860:284355] NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9802)
+2018-10-12 12:15:14.618128+0800 LexisGlass[860:284355] Task <83440142-E83C-4478-A26D-A8471E6592CB>.<1> HTTP load failed (error code: -1200 [3:-9802])
+2018-10-12 12:15:14.618469+0800 LexisGlass[860:284111] Task <83440142-E83C-4478-A26D-A8471E6592CB>.<1> finished with error - code: -1200
+2018-10-12 12:15:14.622986+0800 LexisGlass[860:283983] Faild---------------------------------Error Domain=NSURLErrorDomain Code=-1200 "An SSL error has occurred and a secure connection to the server cannot be made." UserInfo={NSURLErrorFailingURLPeerTrustErrorKey=<SecTrustRef: 0x1c811f920>, NSLocalizedRecoverySuggestion=Would you like to connect to the server anyway?, _kCFStreamErrorDomainKey=3, _kCFStreamErrorCodeKey=-9802, NSErrorPeerCertificateChainKey=(
+    "<cert(0x10c048400) s: *.lexislens.co.nz i: Amazon>",
+    "<cert(0x10c048c00) s: Amazon i: Amazon Root CA 1>",
+    "<cert(0x10c04c200) s: Amazon Root CA 1 i: Starfield Services Root Certificate Authority - G2>",
+    "<cert(0x10c04ca00) s: Starfield Services Root Certificate Authority - G2 i: Starfield Class 2 Certification Authority>"
+), NSUnderlyingError=0x1c005cda0 {Error Domain=kCFErrorDomainCFNetwork Code=-1200 "(null)" UserInfo={_kCFStreamPropertySSLClientCertificateState=0, kCFStreamPropertySSLPeerTrust=<SecTrustRef: 0x1c811f920>, _kCFNetworkCFStreamSSLErrorOriginalValue=-9802, _kCFStreamErrorDomainKey=3, _kCFStreamErrorCodeKey=-9802, kCFStreamPropertySSLPeerCertificates=(
+    "<cert(0x10c048400) s: *.lexislens.co.nz i: Amazon>",
+    "<cert(0x10c048c00) s: Amazon i: Amazon Root CA 1>",
+    "<cert(0x10c04c200) s: Amazon Root CA 1 i: Starfield Services Root Certificate Authority - G2>",
+    "<cert(0x10c04ca00) s: Starfield Services Root Certificate Authority - G2 i: Starfield Class 2 Certification Authority>"
+)}}, NSLocalizedDescription=An SSL error has occurred and a secure connection to the server cannot be made., NSErrorFailingURLKey=https://glass.lexislens.co.nz/wamauthapi/api/Auth/GetTokenByLna2, NSErrorFailingURLStringKey=https://glass.lexislens.co.nz/wamauthapi/api/Auth/GetTokenByLna2, NSErrorClientCertificateStateKey=0}
+2018-10-12 12:16:00.008133+0800 LexisGlass[860:283983] Status bar could not find cached time string image. Rendering in-process.
+2018-10-12 12:17:00.007471+0800 LexisGlass[860:283983] Status bar could not find cached time string image. Rendering in-process.
